@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Registros_Servicios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Tiempo_Inicio",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
